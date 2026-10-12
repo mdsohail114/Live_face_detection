@@ -1,0 +1,89 @@
+:root {
+    --navy: #0f1c2e;
+    --navy-soft: #18263d;
+    --danger: #c1121f;
+    --danger-dark: #8a0e16;
+    --paper: #f4f6f8;
+}
+
+body {
+    background: var(--paper);
+    color: #1a2332;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+.app-navbar {
+    background: var(--navy);
+}
+
+.app-footer {
+    background: var(--navy-soft);
+    color: #c9d3e0;
+}
+
+.auth-card {
+    border: 0;
+}
+
+.sos-card {
+    background: linear-gradient(160deg, #3a0d12, #c1121f 70%);
+    color: #fff;
+    border: 0;
+}
+
+.sos-button {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 8px solid rgba(255, 255, 255, 0.35);
+    background: #ff2b2b;
+    color: #fff;
+    font-size: 2.4rem;
+    font-weight: 800;
+    letter-spacing: 0.08em;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.35);
+}
+
+.sos-button:hover,
+.sos-button:focus {
+    background: #ff4444;
+}
+
+.sos-button:disabled {
+    opacity: 0.7;
+}
+
+.map-frame {
+    height: 320px;
+    width: 100%;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.badge.risk-low { background: #2a9d8f; }
+.badge.risk-medium { background: #e9c46a; color: #1a2332; }
+.badge.risk-high { background: #e76f51; }
+.badge.risk-critical { background: #9b2226; }
+
+.card {
+    border: 0;
+    box-shadow: 0 8px 24px rgba(15, 28, 46, 0.06);
+}
+
+.tracking {
+    letter-spacing: 0.12em;
+}
+
+@media (max-width: 576px) {
+    .sos-button {
+        width: 200px;
+        height: 200px;
+        font-size: 2.6rem;
+    }
+}

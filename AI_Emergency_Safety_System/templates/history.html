@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+{% block title %}Alert History — AI Emergency Safety System{% endblock %}
+{% block content %}
+<h1 class="h3 mb-3">Emergency alert history</h1>
+<div class="table-responsive card">
+    <table class="table table-striped mb-0 align-middle">
+        <thead>
+            <tr>
+                <th>Alert ID</th>
+                <th>Date</th>
+                <th>Time</th>
+                <th>Type</th>
+                <th>Latitude</th>
+                <th>Longitude</th>
+                <th>Location link</th>
+                <th>Risk label</th>
+                <th>SMS status</th>
+                <th>Email status</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for alert in alerts %}
+            {% set parts = alert.created_at.split(' ') %}
+            <tr>
+                <td>{{ alert.id }}</td>
+                <td>{{ parts[0] if parts|length > 0 else alert.created_at }}</td>
+                <td>{{ parts[1] if parts|length > 1 else '' }}</td>
+                <td>{{ alert.emergency_type }}</td>
+                <td>{{ '%.6f'|format(alert.latitude) if alert.latitude is not none else '' }}</td>
+                <td>{{ '%.6f'|format(alert.longitude) if alert.longitude is not none else '' }}</td>
+                <td>
+                    {% if alert.location_url %}
+                    <a href="{{ alert.location_url.split('|')[0].strip() }}" target="_blank" rel="noopener">Open map</a>
+                    {% endif %}
+                </td>
+                <td><span class="badge risk-{{ alert.risk_level|lower }}">{{ alert.risk_level }}</span></td>
+                <td class="small">{{ alert.sms_status }}</td>
+                <td class="small">{{ alert.email_status }}</td>
+            </tr>
+            {% else %}
+            <tr><td colspan="10" class="text-muted p-3">No emergency alerts yet.</td></tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+<p class="small text-muted mt-3">Risk labels come from a demonstration classifier and are not a medical or safety diagnosis.</p>
+{% endblock %}

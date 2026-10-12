@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{{ project_name }}</title>
+    <link rel="stylesheet" href="/static/css/style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="sidebar">
+        <div class="brand">
+          <div class="brand-mark">A</div>
+          <div>
+            <h1>AI VisionGuard</h1>
+            <small>Safety monitoring</small>
+          </div>
+        </div>
+
+        <nav class="nav">
+          <button class="nav-item active">Overview</button>
+          <button class="nav-item">Live feed</button>
+          <button class="nav-item">Incidents</button>
+          <button class="nav-item">Analytics</button>
+        </nav>
+
+        <div class="status-card">
+          <span class="label">System</span>
+          <strong id="system-status">SAFE</strong>
+        </div>
+      </aside>
+
+      <main class="content">
+        <header class="topbar">
+          <div>
+            <p class="eyebrow">Realtime intelligent monitoring</p>
+            <h2>VisionGuard live dashboard</h2>
+          </div>
+          <button class="trigger-btn" id="trigger-incident">Trigger incident</button>
+        </header>
+
+        <section class="stats-grid">
+          <article class="stat-card safe">
+            <span>People</span>
+            <strong id="people-count">0</strong>
+          </article>
+          <article class="stat-card">
+            <span>Faces</span>
+            <strong id="face-count">0</strong>
+          </article>
+          <article class="stat-card warning">
+            <span>Fall risk</span>
+            <strong id="fall-detected">No</strong>
+          </article>
+          <article class="stat-card danger">
+            <span>Drowsiness</span>
+            <strong id="drowsiness">No</strong>
+          </article>
+        </section>
+
+        <section class="live-grid">
+          <div class="video-panel">
+            <div class="panel-header">
+              <h3>Live camera feed</h3>
+              <span class="badge" id="camera-status">Live</span>
+            </div>
+            <img id="video-stream" src="/video_feed" alt="Live video stream" />
+          </div>
+
+          <div class="chart-panel">
+            <div class="panel-header">
+              <h3>Safety analytics</h3>
+            </div>
+            <canvas id="safety-chart"></canvas>
+          </div>
+        </section>
+
+        <section class="incident-panel">
+          <div class="panel-header">
+            <h3>Recent incidents</h3>
+          </div>
+          <div id="incident-list" class="incident-list"></div>
+        </section>
+      </main>
+    </div>
+
+    <script src="/static/js/dashboard.js"></script>
+  </body>
+</html>

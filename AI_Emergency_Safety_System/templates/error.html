@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block title %}{{ title }} — AI Emergency Safety System{% endblock %}
+{% block content %}
+<div class="card">
+    <div class="card-body">
+        <h1 class="h4">{{ title }}</h1>
+        <p class="mb-3">{{ message }}</p>
+        <a class="btn btn-danger" href="{{ url_for('emergency.home') }}">Go home</a>
+    </div>
+</div>
+{% endblock %}

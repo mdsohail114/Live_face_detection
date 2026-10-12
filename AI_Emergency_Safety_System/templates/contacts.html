@@ -1,0 +1,70 @@
+{% extends "base.html" %}
+{% block title %}Emergency Contacts — AI Emergency Safety System{% endblock %}
+{% block content %}
+<div class="d-flex justify-content-between align-items-center mb-3">
+    <h1 class="h3 mb-0">Emergency contacts</h1>
+</div>
+<p class="text-muted">You can store multiple contacts. SOS notifies every contact with a phone or email.</p>
+
+<div class="card mb-4">
+    <div class="card-body">
+        <h2 class="h5">Add contact</h2>
+        <form method="post" action="{{ url_for('emergency.add_contact') }}" class="row g-3">
+            <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+            <div class="col-md-4">
+                <label class="form-label" for="name">Name</label>
+                <input class="form-control" id="name" name="name" required>
+            </div>
+            <div class="col-md-4">
+                <label class="form-label" for="phone">Phone</label>
+                <input class="form-control" id="phone" name="phone" required>
+            </div>
+            <div class="col-md-4">
+                <label class="form-label" for="email">Email (optional)</label>
+                <input class="form-control" type="email" id="email" name="email">
+            </div>
+            <div class="col-12">
+                <button class="btn btn-danger" type="submit">Add contact</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+<div class="row g-3">
+    {% for contact in contacts %}
+    <div class="col-md-6">
+        <div class="card h-100">
+            <div class="card-body">
+                <h2 class="h5">{{ contact.name }}</h2>
+                <p class="mb-1">{{ contact.phone }}</p>
+                <p class="text-muted">{{ contact.email or "No email saved" }}</p>
+                <button class="btn btn-sm btn-outline-primary" type="button" data-bs-toggle="collapse" data-bs-target="#edit{{ contact.id }}">Edit</button>
+                <form method="post" action="{{ url_for('emergency.delete_contact', contact_id=contact.id) }}" class="d-inline" onsubmit="return confirm('Delete this contact?');">
+                    <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+                    <button class="btn btn-sm btn-outline-danger" type="submit">Delete</button>
+                </form>
+                <div class="collapse mt-3" id="edit{{ contact.id }}">
+                    <form method="post" action="{{ url_for('emergency.edit_contact', contact_id=contact.id) }}">
+                        <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+                        <div class="mb-2">
+                            <input class="form-control" name="name" value="{{ contact.name }}" required>
+                        </div>
+                        <div class="mb-2">
+                            <input class="form-control" name="phone" value="{{ contact.phone }}" required>
+                        </div>
+                        <div class="mb-2">
+                            <input class="form-control" type="email" name="email" value="{{ contact.email or '' }}">
+                        </div>
+                        <button class="btn btn-sm btn-secondary" type="submit">Save changes</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    {% else %}
+    <div class="col-12">
+        <div class="alert alert-warning">No contacts yet. Add one above.</div>
+    </div>
+    {% endfor %}
+</div>
+{% endblock %}

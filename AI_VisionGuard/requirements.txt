@@ -1,0 +1,14 @@
+fastapi
+uvicorn[standard]
+sqlalchemy
+jinja2
+python-dotenv
+opencv-python
+mediapipe
+ultralytics
+pandas
+numpy
+scikit-learn
+pytest
+httpx
+pillow

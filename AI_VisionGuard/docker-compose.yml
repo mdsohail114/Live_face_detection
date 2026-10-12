@@ -1,0 +1,13 @@
+services:
+  ai-visionguard:
+    build: .
+    container_name: ai-visionguard
+    ports:
+      - "8000:8000"
+    environment:
+      - APP_HOST=0.0.0.0
+      - APP_PORT=8000
+      - DATABASE_URL=sqlite:///./visionguard.db
+    volumes:
+      - .:/app
+    restart: unless-stopped

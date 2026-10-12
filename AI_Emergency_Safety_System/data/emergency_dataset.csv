@@ -1,0 +1,361 @@
+emergency_type,sos_attempts,hour_of_day,previous_frequency,response_status,user_severity,risk_level
+Medical Emergency,6,15,5,1,5,CRITICAL
+Medical Emergency,5,4,1,1,5,CRITICAL
+Harassment,6,17,9,1,1,MEDIUM
+Other,4,12,4,0,5,HIGH
+Harassment,5,9,9,1,3,HIGH
+Personal Safety,2,2,6,2,1,MEDIUM
+Other,6,6,7,0,4,HIGH
+Harassment,3,1,11,1,5,CRITICAL
+Harassment,6,18,2,1,3,HIGH
+Personal Safety,1,13,1,2,4,MEDIUM
+Other,6,8,11,1,2,MEDIUM
+Other,3,1,5,2,1,HIGH
+Personal Safety,1,16,5,0,2,MEDIUM
+Fire,5,22,5,0,5,CRITICAL
+Fire,5,2,3,2,5,CRITICAL
+Personal Safety,6,20,4,2,2,MEDIUM
+Accident,5,15,1,2,1,MEDIUM
+Harassment,1,19,9,2,4,MEDIUM
+Personal Safety,5,6,9,1,3,HIGH
+Fire,4,0,1,0,1,HIGH
+Personal Safety,5,15,5,2,3,HIGH
+Medical Emergency,6,13,7,1,3,HIGH
+Medical Emergency,4,19,3,1,1,MEDIUM
+Personal Safety,4,23,2,0,3,CRITICAL
+Other,6,0,2,2,1,MEDIUM
+Other,2,22,3,1,4,HIGH
+Medical Emergency,4,12,9,2,4,CRITICAL
+Personal Safety,3,10,9,0,1,HIGH
+Personal Safety,1,2,1,2,4,MEDIUM
+Harassment,4,17,1,2,3,MEDIUM
+Other,2,11,8,1,3,MEDIUM
+Medical Emergency,3,5,3,2,4,CRITICAL
+Fire,3,23,1,1,1,HIGH
+Personal Safety,7,8,10,1,4,HIGH
+Personal Safety,2,18,11,0,4,HIGH
+Accident,6,18,5,2,2,HIGH
+Medical Emergency,1,10,10,0,3,HIGH
+Harassment,2,17,3,2,3,MEDIUM
+Fire,2,11,10,0,4,HIGH
+Personal Safety,6,15,5,0,4,CRITICAL
+Medical Emergency,5,2,7,1,1,HIGH
+Harassment,3,18,0,0,3,HIGH
+Accident,3,15,1,2,1,MEDIUM
+Accident,5,19,2,0,5,CRITICAL
+Other,5,10,4,1,3,MEDIUM
+Accident,1,3,11,1,3,HIGH
+Personal Safety,6,1,0,0,3,HIGH
+Harassment,4,10,11,0,3,HIGH
+Fire,4,19,3,2,2,HIGH
+Fire,4,20,5,0,1,HIGH
+Personal Safety,6,0,10,1,1,HIGH
+Accident,4,7,1,1,4,HIGH
+Medical Emergency,2,5,7,2,4,CRITICAL
+Other,6,7,1,1,5,HIGH
+Other,2,5,0,0,3,MEDIUM
+Fire,3,7,9,1,5,CRITICAL
+Other,3,4,11,1,2,HIGH
+Fire,4,21,3,2,5,CRITICAL
+Accident,2,12,0,0,3,MEDIUM
+Other,7,3,10,0,4,CRITICAL
+Other,7,5,10,0,3,CRITICAL
+Personal Safety,3,0,9,1,4,CRITICAL
+Personal Safety,3,21,1,2,4,HIGH
+Personal Safety,2,0,11,2,2,HIGH
+Medical Emergency,1,1,9,2,1,MEDIUM
+Harassment,2,8,7,2,5,HIGH
+Medical Emergency,2,6,3,2,4,HIGH
+Accident,7,11,6,1,1,MEDIUM
+Other,1,4,2,0,1,MEDIUM
+Medical Emergency,5,23,1,0,3,CRITICAL
+Other,5,18,6,1,1,MEDIUM
+Other,6,0,8,0,4,CRITICAL
+Harassment,1,10,1,1,5,MEDIUM
+Medical Emergency,3,23,3,0,3,CRITICAL
+Fire,5,7,11,1,2,HIGH
+Other,7,11,0,1,3,MEDIUM
+Medical Emergency,5,20,1,2,1,MEDIUM
+Harassment,3,0,11,0,3,CRITICAL
+Accident,7,17,9,1,3,HIGH
+Fire,6,20,0,1,1,MEDIUM
+Accident,6,6,9,1,2,HIGH
+Personal Safety,4,18,7,2,5,CRITICAL
+Harassment,5,6,4,0,2,HIGH
+Other,3,2,7,2,5,CRITICAL
+Accident,4,12,2,0,2,HIGH
+Other,6,20,9,2,1,MEDIUM
+Other,1,11,7,1,1,LOW
+Accident,6,7,3,2,1,MEDIUM
+Other,7,14,1,0,2,MEDIUM
+Fire,2,10,1,1,1,LOW
+Harassment,1,4,2,2,1,MEDIUM
+Personal Safety,5,12,8,2,2,HIGH
+Harassment,3,23,6,2,5,CRITICAL
+Harassment,6,12,0,1,1,MEDIUM
+Other,2,5,2,1,3,MEDIUM
+Other,3,6,0,0,2,MEDIUM
+Other,4,21,1,0,5,HIGH
+Medical Emergency,1,9,11,2,1,MEDIUM
+Other,6,19,10,0,5,CRITICAL
+Accident,6,13,9,1,4,HIGH
+Fire,6,17,1,2,3,HIGH
+Accident,4,23,10,2,3,CRITICAL
+Harassment,3,16,7,0,2,HIGH
+Medical Emergency,1,10,5,0,3,HIGH
+Fire,2,8,4,1,2,MEDIUM
+Harassment,3,10,4,0,4,HIGH
+Accident,3,19,11,2,5,CRITICAL
+Other,4,18,3,1,3,MEDIUM
+Other,6,11,7,0,5,CRITICAL
+Fire,4,18,7,0,2,HIGH
+Accident,6,0,2,1,4,CRITICAL
+Fire,7,22,1,2,4,CRITICAL
+Fire,1,14,8,1,1,MEDIUM
+Fire,7,17,1,2,5,HIGH
+Accident,6,9,7,1,4,HIGH
+Other,6,22,11,0,2,HIGH
+Harassment,5,1,1,1,4,HIGH
+Accident,2,3,6,0,3,HIGH
+Personal Safety,4,16,6,2,4,HIGH
+Other,6,12,5,0,3,HIGH
+Medical Emergency,7,20,1,2,1,MEDIUM
+Harassment,1,11,7,2,3,MEDIUM
+Other,6,4,8,2,2,HIGH
+Harassment,7,19,9,1,2,HIGH
+Harassment,3,12,3,0,1,MEDIUM
+Other,2,2,11,1,3,HIGH
+Harassment,3,3,8,0,3,CRITICAL
+Other,7,8,9,1,3,HIGH
+Medical Emergency,3,15,11,0,4,CRITICAL
+Other,7,10,1,0,5,HIGH
+Other,5,2,1,1,3,HIGH
+Medical Emergency,5,13,0,0,3,HIGH
+Harassment,6,10,3,2,3,HIGH
+Accident,4,0,3,1,5,CRITICAL
+Harassment,6,13,1,1,5,HIGH
+Medical Emergency,7,16,3,2,5,CRITICAL
+Medical Emergency,1,15,11,0,4,HIGH
+Medical Emergency,5,14,1,2,5,HIGH
+Other,1,5,2,1,1,LOW
+Other,6,19,2,0,5,HIGH
+Accident,5,21,0,0,1,MEDIUM
+Medical Emergency,1,19,7,2,5,HIGH
+Other,2,6,10,0,1,MEDIUM
+Harassment,6,23,11,0,4,CRITICAL
+Other,5,19,10,1,1,MEDIUM
+Personal Safety,2,2,1,2,3,MEDIUM
+Fire,6,13,7,0,5,CRITICAL
+Personal Safety,2,19,8,0,1,MEDIUM
+Medical Emergency,2,2,8,1,5,CRITICAL
+Harassment,5,12,0,0,4,HIGH
+Medical Emergency,1,5,10,1,4,HIGH
+Personal Safety,2,8,1,2,1,LOW
+Personal Safety,7,14,5,1,4,HIGH
+Accident,5,20,6,1,1,MEDIUM
+Accident,7,12,3,1,3,HIGH
+Fire,5,6,7,1,5,CRITICAL
+Medical Emergency,2,11,6,2,3,HIGH
+Other,4,3,1,2,1,MEDIUM
+Other,2,2,3,1,3,MEDIUM
+Harassment,5,9,7,2,3,HIGH
+Medical Emergency,3,20,2,2,3,HIGH
+Fire,3,22,0,0,3,CRITICAL
+Personal Safety,4,3,2,0,3,CRITICAL
+Personal Safety,4,14,8,1,4,HIGH
+Fire,5,14,3,0,4,CRITICAL
+Personal Safety,4,4,5,1,4,CRITICAL
+Fire,3,23,6,2,4,CRITICAL
+Fire,7,3,11,2,3,CRITICAL
+Harassment,4,6,9,0,2,HIGH
+Fire,6,9,5,0,1,HIGH
+Medical Emergency,1,20,10,2,1,MEDIUM
+Medical Emergency,2,13,4,1,1,MEDIUM
+Harassment,3,1,8,2,1,HIGH
+Personal Safety,6,16,10,1,2,HIGH
+Harassment,2,5,7,2,1,MEDIUM
+Fire,3,12,11,0,5,CRITICAL
+Personal Safety,6,10,3,2,4,HIGH
+Medical Emergency,5,18,4,2,4,HIGH
+Personal Safety,1,16,2,2,3,MEDIUM
+Personal Safety,2,17,1,1,5,MEDIUM
+Other,7,22,6,0,5,CRITICAL
+Harassment,7,15,1,1,3,MEDIUM
+Other,3,7,0,2,4,MEDIUM
+Medical Emergency,4,11,5,2,1,HIGH
+Accident,2,5,10,2,1,MEDIUM
+Fire,2,4,3,0,3,HIGH
+Other,5,17,5,0,1,MEDIUM
+Accident,2,20,10,2,4,HIGH
+Fire,5,9,8,2,4,CRITICAL
+Fire,1,17,4,2,3,MEDIUM
+Other,3,22,10,0,3,CRITICAL
+Fire,6,16,10,1,3,HIGH
+Personal Safety,7,7,7,0,5,CRITICAL
+Personal Safety,3,13,5,2,3,HIGH
+Fire,1,0,4,2,5,HIGH
+Fire,5,9,2,0,2,HIGH
+Accident,2,6,0,1,5,MEDIUM
+Harassment,4,10,3,0,3,HIGH
+Fire,1,9,3,0,4,HIGH
+Fire,5,17,11,2,4,CRITICAL
+Other,4,23,9,1,5,CRITICAL
+Fire,6,6,11,1,4,CRITICAL
+Personal Safety,7,1,1,1,4,HIGH
+Harassment,4,15,6,2,4,HIGH
+Personal Safety,7,2,11,0,2,CRITICAL
+Harassment,6,23,8,1,2,HIGH
+Medical Emergency,1,7,0,1,4,MEDIUM
+Other,4,21,11,2,3,HIGH
+Accident,7,5,4,0,4,CRITICAL
+Fire,1,5,6,1,5,CRITICAL
+Accident,7,10,9,0,1,HIGH
+Medical Emergency,3,22,0,1,1,HIGH
+Other,5,18,8,1,4,HIGH
+Medical Emergency,7,17,8,1,5,CRITICAL
+Personal Safety,1,21,2,0,4,MEDIUM
+Accident,7,10,0,2,3,MEDIUM
+Accident,5,12,0,2,3,MEDIUM
+Harassment,7,14,8,0,2,HIGH
+Personal Safety,6,12,4,2,5,HIGH
+Other,3,17,7,1,2,MEDIUM
+Medical Emergency,2,13,10,2,1,MEDIUM
+Harassment,1,16,4,1,4,MEDIUM
+Personal Safety,6,12,11,1,2,HIGH
+Harassment,3,12,1,0,3,HIGH
+Accident,7,20,8,2,3,HIGH
+Medical Emergency,3,11,10,0,3,CRITICAL
+Personal Safety,1,2,4,0,1,MEDIUM
+Personal Safety,2,13,0,0,3,MEDIUM
+Other,5,21,4,1,3,MEDIUM
+Other,7,23,9,1,3,HIGH
+Other,2,8,10,1,2,MEDIUM
+Fire,3,21,10,0,3,CRITICAL
+Other,6,5,7,1,4,CRITICAL
+Medical Emergency,3,20,2,0,2,HIGH
+Accident,2,8,10,0,2,MEDIUM
+Medical Emergency,4,6,9,1,4,CRITICAL
+Fire,4,20,5,2,5,CRITICAL
+Fire,5,6,9,2,5,CRITICAL
+Accident,6,11,2,0,3,HIGH
+Accident,1,10,7,0,5,HIGH
+Harassment,4,22,5,0,1,HIGH
+Other,7,17,1,0,1,MEDIUM
+Medical Emergency,2,13,0,2,3,MEDIUM
+Accident,4,18,3,0,1,MEDIUM
+Other,1,15,4,2,1,LOW
+Other,5,10,2,2,2,MEDIUM
+Personal Safety,3,5,4,0,1,HIGH
+Accident,1,9,10,0,1,MEDIUM
+Medical Emergency,4,6,5,0,2,HIGH
+Personal Safety,4,13,9,1,5,CRITICAL
+Fire,2,5,3,1,2,HIGH
+Other,4,20,8,1,2,MEDIUM
+Harassment,3,5,11,1,1,HIGH
+Personal Safety,4,20,8,0,1,HIGH
+Fire,1,7,1,0,5,HIGH
+Medical Emergency,1,22,2,2,1,MEDIUM
+Medical Emergency,1,16,7,1,2,MEDIUM
+Medical Emergency,4,5,7,2,5,CRITICAL
+Personal Safety,1,6,10,1,4,MEDIUM
+Personal Safety,2,21,9,2,5,HIGH
+Accident,2,5,11,1,3,HIGH
+Other,5,21,11,0,2,HIGH
+Harassment,6,3,3,1,4,CRITICAL
+Medical Emergency,5,7,2,1,3,HIGH
+Fire,3,19,0,2,1,MEDIUM
+Harassment,3,9,0,2,1,MEDIUM
+Fire,6,20,8,0,4,CRITICAL
+Harassment,3,2,10,0,3,CRITICAL
+Accident,1,18,1,2,4,MEDIUM
+Medical Emergency,2,19,6,0,5,CRITICAL
+Accident,1,22,0,1,5,HIGH
+Fire,5,9,1,1,5,HIGH
+Medical Emergency,7,9,6,0,4,CRITICAL
+Accident,2,17,0,1,3,MEDIUM
+Medical Emergency,3,8,7,2,5,CRITICAL
+Accident,1,1,7,0,2,HIGH
+Other,7,20,3,1,4,HIGH
+Accident,4,12,4,2,4,HIGH
+Fire,6,18,6,0,4,CRITICAL
+Harassment,7,3,5,2,3,CRITICAL
+Other,1,0,9,1,3,MEDIUM
+Personal Safety,3,22,1,2,5,CRITICAL
+Fire,3,3,8,1,1,HIGH
+Personal Safety,7,6,2,2,1,MEDIUM
+Other,7,23,10,0,2,HIGH
+Personal Safety,4,21,8,1,5,CRITICAL
+Fire,3,9,6,0,4,CRITICAL
+Fire,6,12,9,2,3,HIGH
+Personal Safety,1,18,10,2,5,HIGH
+Other,6,12,1,0,2,MEDIUM
+Personal Safety,6,10,0,0,5,HIGH
+Other,3,19,8,2,5,HIGH
+Fire,3,15,3,1,4,HIGH
+Fire,5,9,4,0,4,CRITICAL
+Fire,7,12,5,0,1,HIGH
+Personal Safety,3,8,4,2,1,MEDIUM
+Accident,2,7,8,0,2,MEDIUM
+Medical Emergency,7,17,2,0,1,HIGH
+Personal Safety,6,14,10,1,2,HIGH
+Personal Safety,2,23,2,1,3,HIGH
+Medical Emergency,4,10,3,0,1,HIGH
+Medical Emergency,4,2,11,0,4,CRITICAL
+Harassment,4,21,1,0,2,MEDIUM
+Medical Emergency,3,7,9,0,5,CRITICAL
+Harassment,7,2,11,1,5,CRITICAL
+Personal Safety,7,14,0,1,1,MEDIUM
+Other,3,5,6,1,1,HIGH
+Harassment,6,17,7,1,3,HIGH
+Fire,2,1,3,1,1,MEDIUM
+Medical Emergency,6,8,7,1,4,CRITICAL
+Harassment,3,20,4,2,3,HIGH
+Medical Emergency,6,0,9,0,2,CRITICAL
+Fire,7,9,1,0,5,CRITICAL
+Harassment,1,9,3,0,5,HIGH
+Fire,2,15,4,0,3,HIGH
+Accident,2,21,8,0,5,HIGH
+Fire,7,17,4,1,3,HIGH
+Harassment,2,7,2,0,1,MEDIUM
+Medical Emergency,7,1,10,0,4,CRITICAL
+Accident,4,6,5,1,3,HIGH
+Personal Safety,4,19,5,1,1,MEDIUM
+Personal Safety,1,4,11,0,3,HIGH
+Other,7,3,1,1,3,HIGH
+Other,2,3,3,2,1,MEDIUM
+Personal Safety,1,3,11,0,2,HIGH
+Other,5,1,5,2,3,HIGH
+Fire,4,15,2,2,5,CRITICAL
+Medical Emergency,6,19,8,1,3,HIGH
+Other,2,19,11,2,2,MEDIUM
+Fire,1,22,4,0,4,HIGH
+Fire,5,1,9,1,4,CRITICAL
+Harassment,2,5,11,1,3,HIGH
+Accident,5,18,0,1,5,HIGH
+Accident,2,21,0,1,3,MEDIUM
+Harassment,1,10,1,2,4,MEDIUM
+Personal Safety,3,3,11,1,2,HIGH
+Personal Safety,6,17,5,0,4,CRITICAL
+Fire,5,1,5,1,5,CRITICAL
+Fire,3,13,2,0,4,CRITICAL
+Other,6,14,0,2,3,MEDIUM
+Accident,7,17,8,0,5,CRITICAL
+Personal Safety,4,18,7,0,2,HIGH
+Personal Safety,7,17,4,2,4,HIGH
+Personal Safety,3,21,6,0,4,CRITICAL
+Fire,4,17,10,0,3,CRITICAL
+Accident,5,9,4,2,3,HIGH
+Personal Safety,4,6,1,2,1,MEDIUM
+Accident,5,3,7,2,4,CRITICAL
+Accident,1,21,3,2,1,LOW
+Medical Emergency,6,22,10,2,2,CRITICAL
+Other,5,4,1,2,2,MEDIUM
+Harassment,1,6,3,0,4,MEDIUM
+Other,7,17,2,2,3,MEDIUM
+Fire,5,18,11,1,4,CRITICAL
+Harassment,2,7,7,0,2,MEDIUM
+Harassment,7,12,4,1,4,HIGH
+Fire,1,12,4,2,5,HIGH
+Other,5,8,5,0,5,CRITICAL
+Other,6,7,3,2,3,MEDIUM
+Harassment,4,10,7,2,2,HIGH
